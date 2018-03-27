@@ -1,0 +1,17 @@
+PODS:
+  - Concorde (0.2.0):
+    - Concorde/Core (= 0.2.0)
+    - Concorde/UI (= 0.2.0)
+  - Concorde/Core (0.2.0)
+  - Concorde/UI (0.2.0):
+    - Concorde/Core
+
+DEPENDENCIES:
+  - Concorde
+
+SPEC CHECKSUMS:
+  Concorde: 7321c727200f4cbccd119249ea491c548065da29
+
+PODFILE CHECKSUM: 00be1b6e360c4883925f67337466ee9dd7ddf281
+
+COCOAPODS: 1.4.0
