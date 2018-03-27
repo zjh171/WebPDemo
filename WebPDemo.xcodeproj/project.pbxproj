@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF82DA62068E88100B6C63E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82DA52068E88100B6C63E /* AppDelegate.m */; };
+		DEF82DA92068E88100B6C63E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82DA82068E88100B6C63E /* ViewController.m */; };
+		DEF82DAE2068E88100B6C63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DAD2068E88100B6C63E /* Assets.xcassets */; };
+		DEF82DB12068E88100B6C63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DAF2068E88100B6C63E /* LaunchScreen.storyboard */; };
+		DEF82DB42068E88100B6C63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82DB32068E88100B6C63E /* main.m */; };
+		DEF82DBC2068E8AD00B6C63E /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DBA2068E8AC00B6C63E /* 1.gif */; };
+		DEF82DBD2068E8AD00B6C63E /* animated-gif-1.webp in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DBB2068E8AD00B6C63E /* animated-gif-1.webp */; };
+		DEF82DF22068EB8B00B6C63E /* NatGeo08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE12068EB8B00B6C63E /* NatGeo08.jpg */; };
+		DEF82DF32068EB8B00B6C63E /* NatGeo09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE22068EB8B00B6C63E /* NatGeo09.jpg */; };
+		DEF82DF42068EB8B00B6C63E /* NatGeo02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE32068EB8B00B6C63E /* NatGeo02.jpg */; };
+		DEF82DF52068EB8B00B6C63E /* NatGeo16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE42068EB8B00B6C63E /* NatGeo16.jpg */; };
+		DEF82DF62068EB8B00B6C63E /* NatGeo17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE52068EB8B00B6C63E /* NatGeo17.jpg */; };
+		DEF82DF72068EB8B00B6C63E /* NatGeo03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE62068EB8B00B6C63E /* NatGeo03.jpg */; };
+		DEF82DF82068EB8B00B6C63E /* NatGeo15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE72068EB8B00B6C63E /* NatGeo15.jpg */; };
+		DEF82DF92068EB8B00B6C63E /* NatGeo01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE82068EB8B00B6C63E /* NatGeo01.jpg */; };
+		DEF82DFA2068EB8B00B6C63E /* NatGeo14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DE92068EB8B00B6C63E /* NatGeo14.jpg */; };
+		DEF82DFB2068EB8B00B6C63E /* NatGeo10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DEA2068EB8B00B6C63E /* NatGeo10.jpg */; };
+		DEF82DFC2068EB8B00B6C63E /* NatGeo04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DEB2068EB8B00B6C63E /* NatGeo04.jpg */; };
+		DEF82DFD2068EB8B00B6C63E /* NatGeo05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DEC2068EB8B00B6C63E /* NatGeo05.jpg */; };
+		DEF82DFE2068EB8B00B6C63E /* NatGeo11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DED2068EB8B00B6C63E /* NatGeo11.jpg */; };
+		DEF82DFF2068EB8B00B6C63E /* NatGeo07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DEE2068EB8B00B6C63E /* NatGeo07.jpg */; };
+		DEF82E002068EB8B00B6C63E /* NatGeo13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DEF2068EB8B00B6C63E /* NatGeo13.jpg */; };
+		DEF82E012068EB8B00B6C63E /* NatGeo12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DF02068EB8B00B6C63E /* NatGeo12.jpg */; };
+		DEF82E022068EB8B00B6C63E /* NatGeo06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DF12068EB8B00B6C63E /* NatGeo06.jpg */; };
+		DEF82E09206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E07206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m */; };
+		DEF82E0A206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E08206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib */; };
+		DEF82E0E206A596700B6C63E /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E0D206A596700B6C63E /* UIImage+animatedGIF.m */; };
+		DEF82E12206A598900B6C63E /* WDLoadGifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */; };
+		DEF82E13206A598900B6C63E /* WDLoadGifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEF82DA12068E88100B6C63E /* WebPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF82DA42068E88100B6C63E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEF82DA52068E88100B6C63E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEF82DA72068E88100B6C63E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEF82DA82068E88100B6C63E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEF82DAD2068E88100B6C63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF82DB02068E88100B6C63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEF82DB22068E88100B6C63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF82DB32068E88100B6C63E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF82DBA2068E8AC00B6C63E /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		DEF82DBB2068E8AD00B6C63E /* animated-gif-1.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "animated-gif-1.webp"; sourceTree = "<group>"; };
+		DEF82DE12068EB8B00B6C63E /* NatGeo08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo08.jpg; sourceTree = "<group>"; };
+		DEF82DE22068EB8B00B6C63E /* NatGeo09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo09.jpg; sourceTree = "<group>"; };
+		DEF82DE32068EB8B00B6C63E /* NatGeo02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo02.jpg; sourceTree = "<group>"; };
+		DEF82DE42068EB8B00B6C63E /* NatGeo16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo16.jpg; sourceTree = "<group>"; };
+		DEF82DE52068EB8B00B6C63E /* NatGeo17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo17.jpg; sourceTree = "<group>"; };
+		DEF82DE62068EB8B00B6C63E /* NatGeo03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo03.jpg; sourceTree = "<group>"; };
+		DEF82DE72068EB8B00B6C63E /* NatGeo15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo15.jpg; sourceTree = "<group>"; };
+		DEF82DE82068EB8B00B6C63E /* NatGeo01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo01.jpg; sourceTree = "<group>"; };
+		DEF82DE92068EB8B00B6C63E /* NatGeo14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo14.jpg; sourceTree = "<group>"; };
+		DEF82DEA2068EB8B00B6C63E /* NatGeo10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo10.jpg; sourceTree = "<group>"; };
+		DEF82DEB2068EB8B00B6C63E /* NatGeo04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo04.jpg; sourceTree = "<group>"; };
+		DEF82DEC2068EB8B00B6C63E /* NatGeo05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo05.jpg; sourceTree = "<group>"; };
+		DEF82DED2068EB8B00B6C63E /* NatGeo11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo11.jpg; sourceTree = "<group>"; };
+		DEF82DEE2068EB8B00B6C63E /* NatGeo07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo07.jpg; sourceTree = "<group>"; };
+		DEF82DEF2068EB8B00B6C63E /* NatGeo13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo13.jpg; sourceTree = "<group>"; };
+		DEF82DF02068EB8B00B6C63E /* NatGeo12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo12.jpg; sourceTree = "<group>"; };
+		DEF82DF12068EB8B00B6C63E /* NatGeo06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NatGeo06.jpg; sourceTree = "<group>"; };
+		DEF82E06206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDImageViewAnimateDemoViewController.h; sourceTree = "<group>"; };
+		DEF82E07206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDImageViewAnimateDemoViewController.m; sourceTree = "<group>"; };
+		DEF82E08206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDImageViewAnimateDemoViewController.xib; sourceTree = "<group>"; };
+		DEF82E0C206A596700B6C63E /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		DEF82E0D206A596700B6C63E /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		DEF82E0F206A598900B6C63E /* WDLoadGifViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDLoadGifViewController.h; sourceTree = "<group>"; };
+		DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDLoadGifViewController.m; sourceTree = "<group>"; };
+		DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDLoadGifViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF82D9E2068E88100B6C63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF82D982068E88100B6C63E = {
+			isa = PBXGroup;
+			children = (
+				DEF82DA32068E88100B6C63E /* WebPDemo */,
+				DEF82DA22068E88100B6C63E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF82DA22068E88100B6C63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF82DA12068E88100B6C63E /* WebPDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF82DA32068E88100B6C63E /* WebPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DEF82E0B206A596300B6C63E /* util */,
+				DEF82DE02068EB8B00B6C63E /* image */,
+				DEF82DBA2068E8AC00B6C63E /* 1.gif */,
+				DEF82DBB2068E8AD00B6C63E /* animated-gif-1.webp */,
+				DEF82DA42068E88100B6C63E /* AppDelegate.h */,
+				DEF82DA52068E88100B6C63E /* AppDelegate.m */,
+				DEF82DAD2068E88100B6C63E /* Assets.xcassets */,
+				DEF82DB22068E88100B6C63E /* Info.plist */,
+				DEF82DAF2068E88100B6C63E /* LaunchScreen.storyboard */,
+				DEF82DB32068E88100B6C63E /* main.m */,
+				DEF82DA72068E88100B6C63E /* ViewController.h */,
+				DEF82DA82068E88100B6C63E /* ViewController.m */,
+				DEF82E06206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.h */,
+				DEF82E07206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m */,
+				DEF82E08206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib */,
+				DEF82E0F206A598900B6C63E /* WDLoadGifViewController.h */,
+				DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */,
+				DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */,
+			);
+			path = WebPDemo;
+			sourceTree = "<group>";
+		};
+		DEF82DE02068EB8B00B6C63E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DEF82DE82068EB8B00B6C63E /* NatGeo01.jpg */,
+				DEF82DE32068EB8B00B6C63E /* NatGeo02.jpg */,
+				DEF82DE62068EB8B00B6C63E /* NatGeo03.jpg */,
+				DEF82DEB2068EB8B00B6C63E /* NatGeo04.jpg */,
+				DEF82DEC2068EB8B00B6C63E /* NatGeo05.jpg */,
+				DEF82DF12068EB8B00B6C63E /* NatGeo06.jpg */,
+				DEF82DEE2068EB8B00B6C63E /* NatGeo07.jpg */,
+				DEF82DE12068EB8B00B6C63E /* NatGeo08.jpg */,
+				DEF82DE22068EB8B00B6C63E /* NatGeo09.jpg */,
+				DEF82DEA2068EB8B00B6C63E /* NatGeo10.jpg */,
+				DEF82DED2068EB8B00B6C63E /* NatGeo11.jpg */,
+				DEF82DF02068EB8B00B6C63E /* NatGeo12.jpg */,
+				DEF82DEF2068EB8B00B6C63E /* NatGeo13.jpg */,
+				DEF82DE92068EB8B00B6C63E /* NatGeo14.jpg */,
+				DEF82DE72068EB8B00B6C63E /* NatGeo15.jpg */,
+				DEF82DE42068EB8B00B6C63E /* NatGeo16.jpg */,
+				DEF82DE52068EB8B00B6C63E /* NatGeo17.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		DEF82E0B206A596300B6C63E /* util */ = {
+			isa = PBXGroup;
+			children = (
+				DEF82E0C206A596700B6C63E /* UIImage+animatedGIF.h */,
+				DEF82E0D206A596700B6C63E /* UIImage+animatedGIF.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF82DA02068E88100B6C63E /* WebPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF82DB72068E88100B6C63E /* Build configuration list for PBXNativeTarget "WebPDemo" */;
+			buildPhases = (
+				DEF82D9D2068E88100B6C63E /* Sources */,
+				DEF82D9E2068E88100B6C63E /* Frameworks */,
+				DEF82D9F2068E88100B6C63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebPDemo;
+			productName = WebPDemo;
+			productReference = DEF82DA12068E88100B6C63E /* WebPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF82D992068E88100B6C63E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kyson;
+				TargetAttributes = {
+					DEF82DA02068E88100B6C63E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEF82D9C2068E88100B6C63E /* Build configuration list for PBXProject "WebPDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF82D982068E88100B6C63E;
+			productRefGroup = DEF82DA22068E88100B6C63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF82DA02068E88100B6C63E /* WebPDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF82D9F2068E88100B6C63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF82E012068EB8B00B6C63E /* NatGeo12.jpg in Resources */,
+				DEF82DF52068EB8B00B6C63E /* NatGeo16.jpg in Resources */,
+				DEF82DB12068E88100B6C63E /* LaunchScreen.storyboard in Resources */,
+				DEF82DAE2068E88100B6C63E /* Assets.xcassets in Resources */,
+				DEF82DFB2068EB8B00B6C63E /* NatGeo10.jpg in Resources */,
+				DEF82DF92068EB8B00B6C63E /* NatGeo01.jpg in Resources */,
+				DEF82DF82068EB8B00B6C63E /* NatGeo15.jpg in Resources */,
+				DEF82DF62068EB8B00B6C63E /* NatGeo17.jpg in Resources */,
+				DEF82DFA2068EB8B00B6C63E /* NatGeo14.jpg in Resources */,
+				DEF82DBD2068E8AD00B6C63E /* animated-gif-1.webp in Resources */,
+				DEF82DFE2068EB8B00B6C63E /* NatGeo11.jpg in Resources */,
+				DEF82DFD2068EB8B00B6C63E /* NatGeo05.jpg in Resources */,
+				DEF82DF42068EB8B00B6C63E /* NatGeo02.jpg in Resources */,
+				DEF82E13206A598900B6C63E /* WDLoadGifViewController.xib in Resources */,
+				DEF82DF22068EB8B00B6C63E /* NatGeo08.jpg in Resources */,
+				DEF82E002068EB8B00B6C63E /* NatGeo13.jpg in Resources */,
+				DEF82E022068EB8B00B6C63E /* NatGeo06.jpg in Resources */,
+				DEF82DBC2068E8AD00B6C63E /* 1.gif in Resources */,
+				DEF82DF72068EB8B00B6C63E /* NatGeo03.jpg in Resources */,
+				DEF82DFC2068EB8B00B6C63E /* NatGeo04.jpg in Resources */,
+				DEF82DFF2068EB8B00B6C63E /* NatGeo07.jpg in Resources */,
+				DEF82DF32068EB8B00B6C63E /* NatGeo09.jpg in Resources */,
+				DEF82E0A206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF82D9D2068E88100B6C63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF82E12206A598900B6C63E /* WDLoadGifViewController.m in Sources */,
+				DEF82DA92068E88100B6C63E /* ViewController.m in Sources */,
+				DEF82E09206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m in Sources */,
+				DEF82DB42068E88100B6C63E /* main.m in Sources */,
+				DEF82E0E206A596700B6C63E /* UIImage+animatedGIF.m in Sources */,
+				DEF82DA62068E88100B6C63E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEF82DAF2068E88100B6C63E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF82DB02068E88100B6C63E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF82DB52068E88100B6C63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEF82DB62068E88100B6C63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF82DB82068E88100B6C63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7Z76WDTD6;
+				INFOPLIST_FILE = WebPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyson.WebPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF82DB92068E88100B6C63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7Z76WDTD6;
+				INFOPLIST_FILE = WebPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyson.WebPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF82D9C2068E88100B6C63E /* Build configuration list for PBXProject "WebPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF82DB52068E88100B6C63E /* Debug */,
+				DEF82DB62068E88100B6C63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF82DB72068E88100B6C63E /* Build configuration list for PBXNativeTarget "WebPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF82DB82068E88100B6C63E /* Debug */,
+				DEF82DB92068E88100B6C63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF82D992068E88100B6C63E /* Project object */;
+}
