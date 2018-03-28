@@ -1,8 +1,8 @@
 # WebPDemo
 
-###[https://support.cloudinary.com/hc/en-us/articles/202521522-How-can-I-make-my-images-load-faster-](https://support.cloudinary.com/hc/en-us/articles/202521522-How-can-I-make-my-images-load-faster-)
+### [https://support.cloudinary.com/hc/en-us/articles/202521522-How-can-I-make-my-images-load-faster-](https://support.cloudinary.com/hc/en-us/articles/202521522-How-can-I-make-my-images-load-faster-)
 
-#How can I make my images load faster?
+# How can I make my images load faster?
  Avatar  Amit Sharon ,4 months ago Updated
 >When your images load faster, your website's / mobile app's user experience is enhanced and metrics such as time on site and conversion rate improve as a result. To make your images load fast, you want their size to be as small as possible, and you want good caching and delivery architecture. When you use Cloudinary to deliver your images, they are served using market-leading Akamai CDN, so the caching and delivery part is solved. As for reducing image size, the following list includes the most effective and easy-to-implement tips for optimizing your images. 
 
