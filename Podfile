@@ -8,4 +8,6 @@ target 'WebPDemo' do
     pod 'SDWebImage'
     pod 'SDWebImage/WebP'
 #    pod 'SDWebImage/GIF'
+    pod 'LHPerformanceStatusBar'
+
 end

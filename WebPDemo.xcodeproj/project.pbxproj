@@ -481,8 +481,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7Z76WDTD6;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
 				INFOPLIST_FILE = WebPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyson.WebPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,8 +497,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7Z76WDTD6;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
 				INFOPLIST_FILE = WebPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyson.WebPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

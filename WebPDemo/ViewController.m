@@ -10,6 +10,7 @@
 #import "WDImageViewAnimateDemoViewController.h"
 #import "WDLoadGifViewController.h"
 #import "WDWebPDemoViewController.h"
+#import "LHPerformanceMonitorService.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -29,7 +30,8 @@
     self.tableView.frame = [UIScreen mainScreen].bounds;
     [self.view addSubview:self.tableView];
     
-    
+    [LHPerformanceMonitorService run];
+
 }
 
 
