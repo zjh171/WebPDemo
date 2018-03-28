@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "WDImageViewAnimateDemoViewController.h"
 #import "WDLoadGifViewController.h"
-
+#import "WDWebPDemoViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -67,6 +67,14 @@
             [self.navigationController pushViewController:vc animated:YES];
 
         }
+            break;
+            case 2:
+        {
+            WDWebPDemoViewController *vc = [[WDWebPDemoViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }
+            break;
             
         default:
             break;

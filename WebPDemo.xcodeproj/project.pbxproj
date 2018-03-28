@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7A018C2BAEAAC804CCC0F7 /* Pods_WebPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346AE7C0F006CDFC0CCD8C61 /* Pods_WebPDemo.framework */; };
 		DEF82DA62068E88100B6C63E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82DA52068E88100B6C63E /* AppDelegate.m */; };
 		DEF82DA92068E88100B6C63E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82DA82068E88100B6C63E /* ViewController.m */; };
 		DEF82DAE2068E88100B6C63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF82DAD2068E88100B6C63E /* Assets.xcassets */; };
@@ -37,11 +36,14 @@
 		DEF82E0E206A596700B6C63E /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E0D206A596700B6C63E /* UIImage+animatedGIF.m */; };
 		DEF82E12206A598900B6C63E /* WDLoadGifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */; };
 		DEF82E13206A598900B6C63E /* WDLoadGifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */; };
+		DEF82E17206B398800B6C63E /* WDWebPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */; };
+		DEF82E18206B398800B6C63E /* WDWebPDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */; };
+		E5BC9A5D0148E775395C1E1C /* libPods-WebPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3788E89A2D6EDC34BAE5FD87 /* libPods-WebPDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AB2F893B2F254CA7B788BC9 /* Pods-WebPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebPDemo/Pods-WebPDemo.release.xcconfig"; sourceTree = "<group>"; };
-		346AE7C0F006CDFC0CCD8C61 /* Pods_WebPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3788E89A2D6EDC34BAE5FD87 /* libPods-WebPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF82DA12068E88100B6C63E /* WebPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF82DA42068E88100B6C63E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEF82DA52068E88100B6C63E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +80,9 @@
 		DEF82E0F206A598900B6C63E /* WDLoadGifViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDLoadGifViewController.h; sourceTree = "<group>"; };
 		DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDLoadGifViewController.m; sourceTree = "<group>"; };
 		DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDLoadGifViewController.xib; sourceTree = "<group>"; };
+		DEF82E14206B398800B6C63E /* WDWebPDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDWebPDemoViewController.h; sourceTree = "<group>"; };
+		DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDWebPDemoViewController.m; sourceTree = "<group>"; };
+		DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDWebPDemoViewController.xib; sourceTree = "<group>"; };
 		FB122D66914F0CA8CA495BC6 /* Pods-WebPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebPDemo/Pods-WebPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7A018C2BAEAAC804CCC0F7 /* Pods_WebPDemo.framework in Frameworks */,
+				E5BC9A5D0148E775395C1E1C /* libPods-WebPDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +110,7 @@
 		5566AEBF4D4B70DAF6BCA346 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				346AE7C0F006CDFC0CCD8C61 /* Pods_WebPDemo.framework */,
+				3788E89A2D6EDC34BAE5FD87 /* libPods-WebPDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +154,9 @@
 				DEF82E0F206A598900B6C63E /* WDLoadGifViewController.h */,
 				DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */,
 				DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */,
+				DEF82E14206B398800B6C63E /* WDWebPDemoViewController.h */,
+				DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */,
+				DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */,
 			);
 			path = WebPDemo;
 			sourceTree = "<group>";
@@ -257,6 +265,7 @@
 				DEF82DF62068EB8B00B6C63E /* NatGeo17.jpg in Resources */,
 				DEF82DFA2068EB8B00B6C63E /* NatGeo14.jpg in Resources */,
 				DEF82DBD2068E8AD00B6C63E /* animated-gif-1.webp in Resources */,
+				DEF82E18206B398800B6C63E /* WDWebPDemoViewController.xib in Resources */,
 				DEF82DFE2068EB8B00B6C63E /* NatGeo11.jpg in Resources */,
 				DEF82DFD2068EB8B00B6C63E /* NatGeo05.jpg in Resources */,
 				DEF82DF42068EB8B00B6C63E /* NatGeo02.jpg in Resources */,
@@ -284,10 +293,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WebPDemo/Pods-WebPDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Concorde/Concorde.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Concorde.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,6 +350,7 @@
 				DEF82E12206A598900B6C63E /* WDLoadGifViewController.m in Sources */,
 				DEF82DA92068E88100B6C63E /* ViewController.m in Sources */,
 				DEF82E09206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m in Sources */,
+				DEF82E17206B398800B6C63E /* WDWebPDemoViewController.m in Sources */,
 				DEF82DB42068E88100B6C63E /* main.m in Sources */,
 				DEF82E0E206A596700B6C63E /* UIImage+animatedGIF.m in Sources */,
 				DEF82DA62068E88100B6C63E /* AppDelegate.m in Sources */,
