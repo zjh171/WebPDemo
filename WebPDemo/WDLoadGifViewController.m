@@ -8,7 +8,8 @@
 
 #import "WDLoadGifViewController.h"
 #import "UIImage+animatedGIF.h"
-
+#import <UIImageView+WebCache.h>
+#import <UIImage+GIF.h>
 
 @interface WDLoadGifViewController ()
 
@@ -20,10 +21,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    //方式一
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"1" withExtension:@"gif"];
     UIImage *image = [UIImage animatedImageWithAnimatedGIFURL:url];
+    
+    //方式二
+//    NSData *imageData = [NSData dataWithContentsOfURL:url];
+//    UIImage *image = [UIImage sd_animatedGIFWithData:imageData];
     self.titleImageView.image = image;
+
 }
 
 

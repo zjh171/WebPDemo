@@ -7,4 +7,5 @@ target 'WebPDemo' do
 #    pod 'Concorde'
     pod 'SDWebImage'
     pod 'SDWebImage/WebP'
+    pod 'SDWebImage/GIF'
 end
