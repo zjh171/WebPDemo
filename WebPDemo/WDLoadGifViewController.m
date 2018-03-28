@@ -23,11 +23,11 @@
     [super viewDidLoad];
     //方式一
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"1" withExtension:@"gif"];
-    UIImage *image = [UIImage animatedImageWithAnimatedGIFURL:url];
+//    UIImage *image = [UIImage animatedImageWithAnimatedGIFURL:url];
     
     //方式二
-//    NSData *imageData = [NSData dataWithContentsOfURL:url];
-//    UIImage *image = [UIImage sd_animatedGIFWithData:imageData];
+    NSData *imageData = [NSData dataWithContentsOfURL:url];
+    UIImage *image = [UIImage sd_animatedGIFWithData:imageData];
     self.titleImageView.image = image;
 
 }
