@@ -38,6 +38,9 @@
 		DEF82E13206A598900B6C63E /* WDLoadGifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */; };
 		DEF82E17206B398800B6C63E /* WDWebPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */; };
 		DEF82E18206B398800B6C63E /* WDWebPDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */; };
+		DEF82E1B206C8C8900B6C63E /* UIImage+SimpleGif.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E1A206C8C8900B6C63E /* UIImage+SimpleGif.m */; };
+		DEF82E1F206C911800B6C63E /* WDGifCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */; };
+		DEF82E20206C911800B6C63E /* WDGifCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */; };
 		E5BC9A5D0148E775395C1E1C /* libPods-WebPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3788E89A2D6EDC34BAE5FD87 /* libPods-WebPDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,11 @@
 		DEF82E14206B398800B6C63E /* WDWebPDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDWebPDemoViewController.h; sourceTree = "<group>"; };
 		DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDWebPDemoViewController.m; sourceTree = "<group>"; };
 		DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDWebPDemoViewController.xib; sourceTree = "<group>"; };
+		DEF82E19206C8C8900B6C63E /* UIImage+SimpleGif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SimpleGif.h"; sourceTree = "<group>"; };
+		DEF82E1A206C8C8900B6C63E /* UIImage+SimpleGif.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SimpleGif.m"; sourceTree = "<group>"; };
+		DEF82E1C206C911800B6C63E /* WDGifCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDGifCollectionViewCell.h; sourceTree = "<group>"; };
+		DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDGifCollectionViewCell.m; sourceTree = "<group>"; };
+		DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDGifCollectionViewCell.xib; sourceTree = "<group>"; };
 		FB122D66914F0CA8CA495BC6 /* Pods-WebPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebPDemo/Pods-WebPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +165,9 @@
 				DEF82E14206B398800B6C63E /* WDWebPDemoViewController.h */,
 				DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */,
 				DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */,
+				DEF82E1C206C911800B6C63E /* WDGifCollectionViewCell.h */,
+				DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */,
+				DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */,
 			);
 			path = WebPDemo;
 			sourceTree = "<group>";
@@ -190,6 +201,8 @@
 			children = (
 				DEF82E0C206A596700B6C63E /* UIImage+animatedGIF.h */,
 				DEF82E0D206A596700B6C63E /* UIImage+animatedGIF.m */,
+				DEF82E19206C8C8900B6C63E /* UIImage+SimpleGif.h */,
+				DEF82E1A206C8C8900B6C63E /* UIImage+SimpleGif.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -277,6 +290,7 @@
 				DEF82DF72068EB8B00B6C63E /* NatGeo03.jpg in Resources */,
 				DEF82DFC2068EB8B00B6C63E /* NatGeo04.jpg in Resources */,
 				DEF82DFF2068EB8B00B6C63E /* NatGeo07.jpg in Resources */,
+				DEF82E20206C911800B6C63E /* WDGifCollectionViewCell.xib in Resources */,
 				DEF82DF32068EB8B00B6C63E /* NatGeo09.jpg in Resources */,
 				DEF82E0A206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib in Resources */,
 			);
@@ -348,7 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF82E12206A598900B6C63E /* WDLoadGifViewController.m in Sources */,
+				DEF82E1F206C911800B6C63E /* WDGifCollectionViewCell.m in Sources */,
 				DEF82DA92068E88100B6C63E /* ViewController.m in Sources */,
+				DEF82E1B206C8C8900B6C63E /* UIImage+SimpleGif.m in Sources */,
 				DEF82E09206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m in Sources */,
 				DEF82E17206B398800B6C63E /* WDWebPDemoViewController.m in Sources */,
 				DEF82DB42068E88100B6C63E /* main.m in Sources */,
