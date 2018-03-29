@@ -144,6 +144,7 @@
 		DEF82DA32068E88100B6C63E /* WebPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DEF82E21206C94A900B6C63E /* gifdemo */,
 				DEF82E0B206A596300B6C63E /* util */,
 				DEF82DE02068EB8B00B6C63E /* image */,
 				DEF82DBA2068E8AC00B6C63E /* 1.gif */,
@@ -159,15 +160,9 @@
 				DEF82E06206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.h */,
 				DEF82E07206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.m */,
 				DEF82E08206A4BF400B6C63E /* WDImageViewAnimateDemoViewController.xib */,
-				DEF82E0F206A598900B6C63E /* WDLoadGifViewController.h */,
-				DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */,
-				DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */,
 				DEF82E14206B398800B6C63E /* WDWebPDemoViewController.h */,
 				DEF82E15206B398800B6C63E /* WDWebPDemoViewController.m */,
 				DEF82E16206B398800B6C63E /* WDWebPDemoViewController.xib */,
-				DEF82E1C206C911800B6C63E /* WDGifCollectionViewCell.h */,
-				DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */,
-				DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */,
 			);
 			path = WebPDemo;
 			sourceTree = "<group>";
@@ -205,6 +200,19 @@
 				DEF82E1A206C8C8900B6C63E /* UIImage+SimpleGif.m */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		DEF82E21206C94A900B6C63E /* gifdemo */ = {
+			isa = PBXGroup;
+			children = (
+				DEF82E0F206A598900B6C63E /* WDLoadGifViewController.h */,
+				DEF82E10206A598900B6C63E /* WDLoadGifViewController.m */,
+				DEF82E11206A598900B6C63E /* WDLoadGifViewController.xib */,
+				DEF82E1C206C911800B6C63E /* WDGifCollectionViewCell.h */,
+				DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */,
+				DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */,
+			);
+			path = gifdemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
