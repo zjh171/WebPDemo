@@ -76,5 +76,79 @@ UIImage类在UIKit框架中，是我们最常使用的存储图片类。该类�
 
 
 
+### Loading images in iOS apps faster with progressive JPEGs
+[Loading images in iOS apps faster with progressive JPEGs](https://www.airpair.com/ios/posts/loading-images-ios-faster-with-progressive-jpegs)
+
+### First take: progressive download
+One solution to this problem is progressive downloading – a technique which enables displaying parts of an image while it is being fetched. This can be quickly implemented with Apple's ImageIO framework and a little effort.
+
+While progressive downloading certainly improves the experience a bit, it still isn't miracles.
+
+### A better way: progressive JPEG
+Progressive JPEG is a format which stores multiple passes of an image of progressively higher detail. When such image is being loaded, the reader would first see a low-quality pixelated version which would gradually improve in detail, until the image is fully downloaded. The idea is to display the visuals as early as possible to entertain the visitor and make the layout look as designed.
+
+See how progressively downloading a regular JPEG (left) is different from displaying progressive JPEG (right): THE GIF
+
+Most likely you've already seen this approach – it's been very common on the web for quite some time. However, there is no out-of-the-box library for displaying progressive JPEGs in iOS apps. Photos in the Facebook iOS app have been loading in this manner for some several months already, but their solution is not publicly available.
+
+### Concorde helps
+When there is no wheel at hand, it's a perfect opportunity to invent one. I have built Concorde – an open-source library for decoding progressive JPEGs on iOS and OS X. Download, plug in your projects, and make the user experience better.
+
+#### Install and use
+Install Concorde via CocoaPods (version 0.36 or higher, as the code is partially written in Swift):
+
+pod 'Concorde'
+Then use CCBufferedImageView which progressively downloads and displays an image:
+
+let imageView = CCBufferedImageView(frame: ...)
+if let url = NSURL(string: "http://example.com/yolo.jpg") {
+    imageView.load(url)
+}
+If you use Contentful, install the subspec:
+
+pod 'Concorde/Contentful'
+Then replace your calls to UIImageView with CCBufferedImageView to automatically use progressive JPEGs, in case you have been using the UIImageView category before. This will work regardless whether the original images were converted to progressive JPEGs or not – Contentful delivery API takes care of converting the assets.
+
+Of course, you can also manually integrate the framework as a subproject or download it as a binary build.
+
+#### Implementation
+Facebook based their solution on libjpeg-turbo, a variant of the commonly used libjpeg, accelerated by using SIMD instructions. This seemed like the right approach, so Concorde is also built on that.
+
+Since Apple's WebKit already supports progressive JPEGs, the solution is based on the existing code. The basic flow of decoding buffered images, which is their jargon for progressive JPEGs is as follows:
+
+jpeg_create_decompress()
+set data source
+jpeg_read_header()
+set overall decompression parameters
+cinfo.buffered_image = TRUE;    /* select buffered-image mode */
+jpeg_start_decompress()
+for (each output pass) {
+    adjust output decompression parameters if required
+   jpeg_start_output()         /* start a new output pass */
+   for (all scanlines in image) {
+       jpeg_read_scanlines()
+     display scanlines
+   }
+   jpeg_finish_output()        /* terminate output pass */
+}
+jpeg_finish_decompress()
+jpeg_destroy_decompress()
+The part which deals directly with libjpeg-turbo is written in Objective-C, so that the framework does not have to expose all of libjpeg.h to the outside world. It also deals with a little oddity of error handling.
+
+Fatal errors are handled by doing a longjmp which is a direct jump to a memory address, to some error-handling code. This was a bit painful to deal with, because a part of the libjpeg calls are made in the initializer of CCBufferedImageDecoder. But course we cannot jump back there once the instance has been initialized! The solution was to have a first jump target for errors during the initialization, and a second one for errors happening later in the process.
+
+Hopefully you would be happy to know that since I’ve dealt with all this already, you can simply enjoy displaying progressive JPEGs in the apps you build.
+
+### Do I have to convert all my images?
+Media content producers might wonder if they have to convert all their standard JPEGs into progressive ones, how to do it, and how do they check if a JPEG is progressive.
+
+If you use Contentful for content delivery, please stop reading this paragraph. The Contentful API takes care of it all: regardless of the original format, the Contentful delivery API processes all the media assets to make them mobile-friendly.
+
+Generally, to make an image loadable in this modern fashion – yes, you have to prepare the files so they are in the appropriate progressive format. You can do that with different tools: for example, Photoshop, ImageMagick, or command-line-friendly jpegtran.
+
+To check whether a JPEG is progressive or not, use this online tool or use command line interface of ImageMagick.
+
+
+
 
 
