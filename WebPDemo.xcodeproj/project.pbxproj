@@ -91,6 +91,7 @@
 		DEF82E1C206C911800B6C63E /* WDGifCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDGifCollectionViewCell.h; sourceTree = "<group>"; };
 		DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDGifCollectionViewCell.m; sourceTree = "<group>"; };
 		DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDGifCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEF82E22206C952600B6C63E /* GifDecoder.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = GifDecoder.java; sourceTree = "<group>"; };
 		FB122D66914F0CA8CA495BC6 /* Pods-WebPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebPDemo/Pods-WebPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,6 +212,7 @@
 				DEF82E1C206C911800B6C63E /* WDGifCollectionViewCell.h */,
 				DEF82E1D206C911800B6C63E /* WDGifCollectionViewCell.m */,
 				DEF82E1E206C911800B6C63E /* WDGifCollectionViewCell.xib */,
+				DEF82E22206C952600B6C63E /* GifDecoder.java */,
 			);
 			path = gifdemo;
 			sourceTree = "<group>";

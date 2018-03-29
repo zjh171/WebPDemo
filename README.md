@@ -54,3 +54,12 @@ On Web use ‘f_auto,fl_lossy,q_auto’
 On native mobile apps use ‘f_webp,q_auto’, and on iOS make sure to include Google’s libwebp.
 Scale: Make sure to scale the images to the right size. Use Cloudinary's automatic responsive support on Web.
 Social networks: Use optimized image URL in the 'og:image' tag used for social sharing. 
+
+
+### Gif Demo
+https://note.youdao.com/share/?id=a364a366b3ee7e9502c64c9e47835f03&type=note#/
+source:https://www.jianshu.com/p/d8976cee3a82
+Android源码阅读——GIF解码（如何提取各帧图片）
+
+
+
