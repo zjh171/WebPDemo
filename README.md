@@ -72,7 +72,7 @@ UIImage类在UIKit框架中，是我们最常使用的存储图片类。该类�
 然后调用CGImageSourceCreateImageAtIndex方法获取一帧的图片，类型为CGImage;
 让UIImage对象持有该CGImage。
 在流程的第一步生成的CGImageSource，仍然保留着GIF的全部信息。而在流程的第二步中出了问题。动态的Gif图与静态格式图片不同，它包含有多张的静态图片。CGImageSourceCreateImageAtIndex只能返回索引值的图片，丢失了其他的图片信息。因此，我们只获取到了其中的一帧图片。出于好奇，我选择了一张只有四帧完全不同的Gif图，通过测试观察，UIImage获取的是第一帧的图片。既然我们不能用UIImage或CGImage来处理Gif图，我们是否可以降级，采用ImageIO框架来处理呢。答案是肯定的。
-
+参考：https://www.jianshu.com/p/5c870860c187
 
 
 
